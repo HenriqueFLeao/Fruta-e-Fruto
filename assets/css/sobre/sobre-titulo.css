@@ -1,0 +1,29 @@
+@import url('https://fonts.googleapis.com/css2?family=Pacifico&display=swap');
+
+.sobre__titulo{
+    font-family: 'pacifico' , sans-serif ;
+
+color:#8D0606;
+font-weight: 400;
+}
+
+.sobre__titulo {
+    display: flex;
+   justify-content: center;
+  margin: 2.6rem;
+}
+
+
+@media screen and (min-width:0) {
+    .sobre__titulo{
+          font-size: 2rem;
+      }
+  }
+@media screen and (min-width:768px) {
+    .sobre__titulo{
+         font-size: 3.2rem ;
+     }
+  }
+
+
+

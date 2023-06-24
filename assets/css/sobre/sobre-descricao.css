@@ -1,0 +1,28 @@
+
+.sobre__descricao{
+    font-family: 'Roboto' , sans-serif ;
+
+color:#8C8888;
+font-weight: 300;
+}
+
+.sobre__descricao{
+    text-align: center;
+    position: absolute;
+    left: 50%;
+transform: translate(-50%, -50%);
+width: 65%;
+
+}
+
+@media screen and (min-width:0) {
+    .sobre__descricao{
+          font-size: 1.3rem;
+      }
+  }
+@media screen and (min-width:768px) {
+    .sobre__descricao{
+        font-size: 1.75rem ; 
+     }
+  }
+
